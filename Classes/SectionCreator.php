@@ -221,7 +221,7 @@ class SectionCreator {
                 array_Push($fieldsToAdd, array(
                         '__type' => \eworxMarketingSuite\Constants::TEXT_FIELD_TYPE,
                         'InternalName' => $field->InternalName,
-                        'UntypedValue' => 'Developed in the <a href="http://www.mailworx.info/en/">mailworx</a> laboratory the intelligent and auto-adaptive algorithm <a href="http://www.mailworx.info/en/irated-technology>iRated®</a>
+                        'UntypedValue' => 'Developed in the <a href="https://www.eworx.at/marketing-suite/produkte/mailworx/">mailworx</a> laboratory the intelligent and auto-adaptive algorithm <a href="https://www.eworx.at/doku/so-funktioniert-irated/>iRated®</a>
                                              brings real progress to your email marketing. It is more than a target group oriented approach.
                                              iRated® sorts the sections of your emails automatically depending on the current preferences of every single subscriber.
                                              This helps you send individual emails even when you don\'t know much about the person behind the email address.'

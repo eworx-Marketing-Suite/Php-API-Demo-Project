@@ -39,7 +39,6 @@ $serviceAgent = new \eworxMarketingSuite\EmsServiceAgent();
 
 // Url to the eMS service.
 // Not required, default value "https://mailworx.marketingsuite.info/Services/JSON/ServiceAgent.svc"
-$serviceAgent->useServiceUrl("https://alpha.mailworx.info/Services/JSON/ServiceAgent.svc");
     
 // ### STEP 1 : Preparation ###           
 
@@ -102,7 +101,7 @@ if (!is_null($importedData) && count($importedData['importedSubscribers']) > 0) 
                 'SendTime' => $sendCampaignRequest->getTime(strtotime(date('Y-m-d H:i:s')))
             ));
 
-            $sendCampaignRequest->setProperty('UseIRated', false); // Here is some more info about iRated http://www.mailworx.info/en/irated-technology
+            $sendCampaignRequest->setProperty('UseIRated', false); // Here is some more info about iRated https://www.eworx.at/doku/so-funktioniert-irated/
             $sendCampaignRequest->setProperty('UseRTR', true);
             $sendCampaignResponse = $sendCampaignRequest->getData();
 
