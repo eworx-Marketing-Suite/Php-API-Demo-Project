@@ -83,6 +83,4 @@ According to the campaign you should get something like this:
 
 ![Campaign click rates](./Screenshots/ClickRatesStatistic.PNG)
 
-![Mail client statistics](./Screenshots/MailClientStatistic.PNG)
-
 Create requests to call the API methods you want to to use. Then process the data as you need.
